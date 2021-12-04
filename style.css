@@ -56,6 +56,9 @@ a {
 
 p {
     color: var(--linkcolor);
+    line-height: 2.4em;
+	font-family: var(--font);
+    font-size: 1rem;
 }
 
 a:hover {
