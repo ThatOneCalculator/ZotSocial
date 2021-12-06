@@ -9,8 +9,8 @@
 	--font: "Fira Code";
 	--bgcolor:  #24262D;
 	--linkcolor: #CDD1C4;
-    --accentcolor: #E8C547;
-    --bg-secondary: #3B5B91;
+	--accentcolor: #E8C547;
+	--bg-secondary: #3B5B91;
 }
 
 body {
@@ -20,17 +20,17 @@ body {
 
 .everything {
 	display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
 
 .link {
 	display: inline-block;
 	margin: 1%;
 	height: 23rem;
-	width: 16rem;
+	width: 18rem;
 	text-align: center;
 	padding-left: 3%;
 	background-color: var(--bg-secondary);
@@ -55,10 +55,10 @@ a {
 }
 
 p {
-    color: var(--linkcolor);
-    line-height: 2.4em;
+	color: var(--linkcolor);
+	line-height: 2.4em;
 	font-family: var(--font);
-    font-size: 1rem;
+	font-size: 1rem;
 }
 
 a:hover {
@@ -66,15 +66,15 @@ a:hover {
 }
 
 .time {
-    font-family: "Fira Code"; monospace;
-    font-weight: mono;
-    font-size: 5.5rem;
-    margin: 20px 0px 0px 0px;
-    color: #EBF2FA;
+	font-family: "Fira Code"; monospace;
+	font-weight: mono;
+	font-size: 5.5rem;
+	margin: 20px 0px 0px 0px;
+	color: #EBF2FA;
 	text-shadow: -5px 5px 0px #E5989B, -10px 10px 0px #E8C547, -15px 15px 0px #439D7B;
 }
 
 .disabled-link {
-  pointer-events: none;
-  filter: brightness(50%);
+	pointer-events: none;
+	filter: brightness(50%);
 }
