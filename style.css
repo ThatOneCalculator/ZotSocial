@@ -74,3 +74,7 @@ a:hover {
 	text-shadow: -5px 5px 0px #E5989B, -10px 10px 0px #E8C547, -15px 15px 0px #439D7B;
 }
 
+.disabled-link {
+  pointer-events: none;
+  filter: brightness(50%);
+}
